@@ -1,6 +1,41 @@
 # netflix-power-bi-dashboard
 # Netflix Content Analysis Dashboard
 
+<p align="center">
+  <img src="screenshots/netflix-banner.png" alt="Netflix Power BI Dashboard Banner" width="100%">
+</p>
+
+<h1 align="center">Netflix Content Analysis Dashboard</h1>
+
+<p align="center">
+  An interactive Power BI dashboard exploring Netflix's content catalogue, genres, ratings, release trends, and geographic distribution.
+</p>
+
+<p align="center">
+
+![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-F2C811?logo=powerbi\&logoColor=black)
+![Power Query](https://img.shields.io/badge/Power%20Query-Data%20Transformation-217346)
+![DAX](https://img.shields.io/badge/DAX-Data%20Analysis-4472C4)
+![Excel](https://img.shields.io/badge/Excel-Data%20Preparation-217346?logo=microsoftexcel\&logoColor=white)
+
+</p>
+
+---
+
+## 📌 Quick Navigation
+
+* [📊 Project Overview](#-project-overview)
+* [🎯 Business Questions](#-business-questions)
+* [📈 Dashboard](#-dashboard)
+* [🔎 Key Insights](#-key-insights)
+* [🛠️ Data Preparation](#️-data-preparation)
+* [🔄 Analytical Workflow](#-analytical-workflow)
+* [💡 Skills Demonstrated](#-skills-demonstrated)
+* [📁 Project Files](#-project-files)
+* [👩‍💻 About Me](#-about-me)
+
+---
+
 ## 📊 Project Overview
 
 This project presents an interactive Power BI dashboard designed to analyze Netflix's content library and uncover trends across content type, genres, ratings, release years, and geographic distribution.
@@ -9,167 +44,176 @@ The dashboard transforms raw Netflix title data into interactive visual insights
 
 ---
 
-## 🎯 Project Objectives
+## 🎯 Business Questions
 
-The main objectives of this project were to:
+The dashboard was designed to answer the following questions:
 
-* Analyze the distribution of Movies and TV Shows on Netflix.
-* Identify trends in Netflix content releases over time.
-* Analyze the most common genres and content categories.
-* Examine the geographic distribution of Netflix titles.
-* Analyze content ratings and duration.
-* Identify the oldest and most recent titles in the dataset.
-* Present the findings through an interactive Power BI dashboard.
-
----
-
-## 🛠️ Tools & Technologies
-
-* **Microsoft Power BI**
-* **Power Query**
-* **DAX**
-* **Microsoft Excel / CSV**
-* **Data Visualization**
+* How is Netflix's catalogue distributed between Movies and TV Shows?
+* How has Netflix's content library evolved over time?
+* Which genres are most represented?
+* Which countries contribute the most content?
+* What ratings are most common across the catalogue?
+* What are the oldest and newest titles in the dataset?
+* How does content duration vary across the catalogue?
 
 ---
 
-# 📑 Dashboard Pages
+## 📈 Dashboard
 
-## Page 1 — Netflix Overview
+### Page 1 — Netflix Overview
 
-The overview page provides a high-level summary of Netflix's content catalogue.
+The overview page provides a high-level view of Netflix's content catalogue.
 
-### Key areas analyzed:
-
-* Total number of titles
-* Movies vs TV Shows
-* Content ratings
-* Release-year trends
-* Overall content distribution
-
-### Dashboard Preview
-
-![Netflix Overview](screenshots/page-1-overview.png)
+[![Netflix Overview](screenshots/page-1-overview.png)](screenshots/page-1-overview.png)
 
 ---
 
-## Page 2 — Content Analysis
+### Page 2 — Content Analysis
 
-This page focuses on the characteristics and evolution of Netflix content.
+This page explores the characteristics and evolution of Netflix content.
 
-### Key areas analyzed:
-
-* Movies vs TV Shows
-* Content ratings
-* Duration
-* Release years
-* Oldest title
-* Latest title
-* Content growth over time
-
-### Dashboard Preview
-
-![Content Analysis](screenshots/page-2-content-analysis.png)
+[![Content Analysis](screenshots/page-2-content-analysis.png)](screenshots/page-2-content-analysis.png)
 
 ---
 
-## Page 3 — Geographic & Genre Analysis
+### Page 3 — Geographic & Genre Analysis
 
-This page examines where Netflix content originates and which genres are most represented.
+This page examines the geographic distribution of Netflix titles and the most represented genres.
 
-### Key areas analyzed:
-
-* Content by country
-* Geographic distribution
-* Top genres
-* Genre distribution
-* Country-level content trends
-
-### Dashboard Preview
-
-![Geographic and Genre Analysis](screenshots/page-3-geographic-genre-analysis.png)
+[![Geographic & Genre Analysis](screenshots/page-3-geographic-genre-analysis.png)](screenshots/page-3-geographic-genre-analysis.png)
 
 ---
 
-# 🔎 Key Insights
+## 🔎 Key Insights
 
-Some of the major insights identified from the analysis include:
+### 1. Content Type
 
-* Movies make up a larger proportion of the Netflix catalogue than TV Shows.
-* Netflix experienced significant growth in the number of titles added over time.
-* The United States represents one of the largest contributors to Netflix's content catalogue.
-* Drama and international content categories are among the prominent genres represented in the dataset.
-* The catalogue contains titles spanning several decades, while a significant proportion of titles were released more recently.
+Movies account for a larger proportion of the Netflix catalogue than TV Shows.
 
----
+### 2. Content Growth
 
-# 📊 Data Preparation
+Netflix's catalogue expanded significantly in the more recent years represented in the dataset.
 
-The dataset was prepared and transformed using Power Query.
+### 3. Geographic Distribution
 
-The data preparation process included:
+The United States represents one of the largest contributors to Netflix's content catalogue, alongside substantial international content.
 
-* Removing unnecessary columns.
-* Handling missing values.
-* Cleaning text fields.
-* Standardizing categorical values.
-* Separating relevant attributes for analysis.
-* Creating fields required for visualization.
-* Preparing the dataset for Power BI analysis.
+### 4. Genre Distribution
+
+Drama and international content categories feature prominently across the catalogue.
+
+### 5. Content Recency
+
+The dataset contains titles spanning several decades, while a significant share of the catalogue consists of more recent releases.
 
 ---
 
-# 📈 Data Analysis
+## 🛠️ Data Preparation
 
-Power BI was used to create interactive visualizations and analytical measures.
+The dataset was prepared using Power Query before visualization.
 
-The analysis focused on:
+### Data Cleaning
 
-* Content type distribution
-* Genre analysis
-* Country analysis
-* Rating distribution
-* Release-year trends
-* Content duration
-* Historical content trends
+* Removed unnecessary fields
+* Handled missing values
+* Standardized categorical fields
+* Cleaned text columns
+* Reviewed inconsistent entries
+
+### Data Transformation
+
+* Separated relevant attributes
+* Created analytical fields
+* Prepared date-related information
+* Structured categorical variables
+* Prepared the dataset for Power BI visualization
 
 ---
 
-# 💡 Skills Demonstrated
+## 🔄 Analytical Workflow
 
-This project demonstrates practical skills in:
+**Raw Dataset**
 
-* Data cleaning
-* Data transformation
-* Exploratory data analysis
-* Data visualization
-* Dashboard design
+↓
+
+**Data Cleaning**
+
+↓
+
+**Power Query Transformation**
+
+↓
+
+**Data Modelling**
+
+↓
+
+**DAX Measures**
+
+↓
+
+**Power BI Visualization**
+
+↓
+
+**Insights & Storytelling**
+
+---
+
+## 💡 Skills Demonstrated
+
+* Data Cleaning
+* Data Transformation
+* Exploratory Data Analysis
+* Data Visualization
+* Dashboard Design
 * Power Query
 * DAX
-* Business storytelling
-* Analytical insight generation
+* KPI Development
+* Trend Analysis
+* Geographic Analysis
+* Business Storytelling
+* Insight Generation
 
 ---
 
-# 📁 Project Files
+## 💻 Tools & Technologies
 
-| File                                               | Description                           |
-| -------------------------------------------------- | ------------------------------------- |
-| `Netflix_Dashboard.pbix`                           | Power BI dashboard                    |
-| `screenshots/page-1-overview.png`                  | Netflix Overview dashboard            |
-| `screenshots/page-2-content-analysis.png`          | Content Analysis dashboard            |
-| `screenshots/page-3-geographic-genre-analysis.png` | Geographic & Genre Analysis dashboard |
+| Tool            | Purpose                                             |
+| --------------- | --------------------------------------------------- |
+| **Power BI**    | Dashboard development and interactive visualization |
+| **Power Query** | Data cleaning and transformation                    |
+| **DAX**         | Measures and analytical calculations                |
+| **Excel / CSV** | Data source and initial data preparation            |
 
 ---
 
-# 👩‍💻 Author
+## 📁 Project Files
+
+| File                                               | Description                    |
+| -------------------------------------------------- | ------------------------------ |
+| `Netflix_Dashboard.pbix`                           | Interactive Power BI dashboard |
+| `screenshots/netflix-banner.png`                   | Project banner                 |
+| `screenshots/page-1-overview.png`                  | Netflix Overview               |
+| `screenshots/page-2-content-analysis.png`          | Content Analysis               |
+| `screenshots/page-3-geographic-genre-analysis.png` | Geographic & Genre Analysis    |
+
+---
+
+## 👩‍💻 About Me
 
 **Faithfulness Celestine Nkechi**
 
-Data Analyst | Power BI | Excel | SQL
+First-Class Honours graduate in Economics with a strong interest in Data Analytics and Business Intelligence.
+
+I use data analysis and visualization tools to transform raw data into meaningful insights that support better decision-making.
+
+### Core Skills
+
+**Power BI • Excel • SQL • Data Analysis • Data Visualization • Power Query • DAX**
 
 ---
 
-## 📌 Project Purpose
-
-This project was developed as part of my data analytics portfolio to demonstrate my ability to transform raw data into meaningful insights through data preparation, analysis, visualization, and dashboard storytelling.
+<p align="center">
+  ⭐ Thank you for viewing my project!
+</p>
